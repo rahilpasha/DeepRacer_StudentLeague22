@@ -7,6 +7,6 @@ SteerToPointAhead (RaceV2) was taken from falktan's deepracer repo: https://gith
 RaceV3 pushes the vehicle to finish the race as fast a possible by figuring out its own racing lines.
 
 Versions 4, 5, and 6 made slight modifications to RaceV3 but weren't able to outperform Version 3.
-Version 4 multiplies the speed input when returning the reward, Version 5 quadruples the speed input before squaring it, and Version 6 multiplies the speed input by 5 before squaring it. Version 6 also uses a SAC (Soft Actor Critic) algorithm wheras Versions 1 through 5 all use a PPO (Proximal Policy Optimization) algorithm.
+Version 4 doubles the speed input when returning the reward, Version 5 quadruples the speed input before squaring it, and Version 6 multiplies the speed input by 5 before squaring it. Version 6 also uses a SAC (Soft Actor Critic) algorithm wheras Versions 1 through 5 all use a PPO (Proximal Policy Optimization) algorithm.
 
 RaceV3/CasefileV3 peaked around 57th in July and finished the race in 1:14 minutes placing in the top 5%.
